@@ -1,18 +1,18 @@
-## Getting Started
+configs:
+	- ds-config01--wk9.xml | used to generate ds-vis readouts
+	S2DemoConfigs:
+		- Contains the demo config files used to benchmark the algorithms written by me
+	S2TestConfigs:
+		- Contains the test config files used to benchmark the algorithms written by me
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+lib:
 
-## Folder Structure
+log files:
+	- contains the log files generated with the benchmarks.
+	
+- README.md | this file
 
-The workspace contains two folders by default, where:
+src:
+	- The class and java filed for the LRR, FC, and FA algorithms.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
