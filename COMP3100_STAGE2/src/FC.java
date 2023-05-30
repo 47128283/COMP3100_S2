@@ -16,7 +16,6 @@ public class FC {
 
     public static void main(String[] args) throws Exception {
         FC c = new FC("127.0.0.1", 50000);
-        System.out.println("yeet");
         c.byClient();
 
         c.s.close();
